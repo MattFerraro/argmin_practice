@@ -6,3 +6,5 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+argmin = { version = "0.7" }
+argmin-math = { version = "0.2", features = ["nalgebra_latest-serde"] }
